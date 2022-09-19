@@ -1,0 +1,412 @@
+* { box-sizing: border-box; }
+
+body { font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	width: 90%; margin: auto; }
+
+#wrapper { background-color: #FFFFFF;
+		width: auto;
+		margin: auto; 
+		padding-top: 0.5em;}
+
+header {float: left; }
+
+.logolink img { width: 320px;
+		height: 140px;
+		margin-bottom: 0;
+		display: flex; }
+
+
+nav { background-color: #FFFFFF;
+	padding-top: 3em;
+	font-size: 20px;
+	font-weight: bold; 
+	letter-spacing: 0.2em;
+	word-spacing: 1em; }
+
+nav ul { list-style-type: none; 
+	text-align: center;}
+
+nav li { display: inline-block;
+	text-decoration: none; }
+
+
+nav a { text-decoration: none; 
+	display: block;
+	font-weight: bold;
+	font-family: Apple Chancery, cursive;
+	font-style: oblique;
+	color: #B28827 ; 
+	font-variant: small-caps; }
+
+nav a:link { color: #B28827; }
+nav a:visited { color: #B28827; }
+nav a:hover {  color: #D4AF37;
+		border-bottom: 3px outset #B28827;}	
+
+main {clear: left; }
+
+
+
+#homePics img {margin: auto; }
+
+#homePics ul {list-style-type: none;
+		text-align: center;
+		margin: auto; }
+
+#homePics ul li { display: inline-block;
+		padding: 1em;  }
+
+.getintouch {font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	font-family: Apple Chancery, cursive; }
+
+.getintouch:hover { color: #B28827; }
+
+.intro {margin: auto; 
+	width: 80%;
+	text-align: center;
+	font-family: Novo;
+	font-size: 20px;
+	padding: 2em;
+	height: 200px;
+	background-image: url(images/background/logo.png);
+	background-repeat: no-repeat;
+	background-size: 120px 100px;
+	background-position: right bottom; 
+	border: 5px outset #B28827; }
+
+#homebuttons {text-align: center; margin: auto;}
+
+#homebuttons ul { padding: 5em; width: auto;}
+
+#homebuttons li {text-align: center;
+		list-style-type: none;
+		margin: 1em;
+		display: inline-block;
+		border: outset;
+		padding: 0.5em;
+		font-size: 22px;
+		font-family: Apple Chancery, cursive;
+		font-weight: bold;
+		background-color:  #B28827; }
+
+#homebuttons li:hover{ background-color: #000000;
+			color: #B28827; }
+		
+#homebuttons a {color: #FFFFFF;
+		text-decoration: none;  }
+
+#reviews h1 {margin: auto;
+	    color: #FFFFFF;
+	    text-shadow: 2px 4px #B28827;
+	    font-family: Novo;
+	    font-size: 40px;
+	    width: 100%;
+	    background-image: url(images/background/reviews.jpg);
+	    background-repeat: no-repeat;
+	    background-size: 500px 270px;
+	    background-color: 	#696969;
+  	    background-position: right top;
+	    border: 4px outset #B28827;
+	    padding: 2.5em; 
+	    height: 250px;}
+
+#reviews { width: 100%;
+		margin: auto;
+		padding: 1em; }
+
+#reviews ul { list-style-type: none; 
+		margin: auto;
+		padding: 2em;
+		text-align: center;}
+
+#reviews li { width: 40%;
+		display: inline-block;
+		vertical-align: bottom;
+		padding: 3em;
+		text-align: center;
+		font-family: Novo;
+		font-size: 20px;
+		margin: 1em;
+		border: 4px outset #B28827; 
+		height: 240px;}
+
+.name { float: right;
+		padding: 2.5em;
+		font-style: italic; }
+
+#reviews p {font-style: italic;
+		width: 70%;
+		margin: auto;
+		margin-right: 8em;
+		display: block;
+		padding: 0.5em;
+		border: 1px solid #000000; }
+
+#reviews a {text-decoration: none;
+		color: #B28827; 
+		font-weight: bold;}
+
+
+#followme { clear: left;
+		letter-spacing: 2px;
+		padding: 0.2em;
+		height: 280px;
+		margin: auto;
+		background-image: url(images/background/footer.jpg); 
+		background-repeat: no-repeat;
+		background-size: contain; 
+		background-position: right;
+		background-color: #696969;
+		border: 4px inset; }
+
+#followme p {font-weight: bold;
+		color: #FFFFFF;
+		font-size: 18px;
+		font-family: Noto;
+		margin: auto;
+		text-align: left; }
+
+#followme h3 {color: #ffe6b3;
+		font-size: 22px;
+		font-family: Noto; }
+#followme a {color: #FFFFFF;
+		font-style: italic;
+		text-decoration: none; }
+
+footer { margin-top: 0;
+	margin: auto;
+	text-align: center;
+	background-color: #ffe6b3;
+	padding: 0.4em; }
+
+aside {margin: auto;
+	padding: 3em; }
+
+aside figure {padding: 6px;
+		border: 3px outset #B28827; }
+
+aside figcaption { text-align: center;
+			color: #000000;
+			font-family: Noto; }
+
+aside a {text-decoration: none; }
+
+aside h1 {font-family: Noto;
+		text-align: left;
+		font-weight: bold;
+		color: #B28827; }
+
+aside li {display: inline-block; }
+
+
+/* Css for Bio Page */
+
+#bio { margin: 5em; 
+	padding-bottom: 3em; }
+
+#bio img { float: left; 
+		width: 350px;
+		height: 400px; }
+
+#bio p { overflow: auto;
+	border: 3px outset #B28827;
+	width: 600px;
+	font-weight: bold;
+	font-family: Noto;
+	font-size: 20px;
+	font-style: oblique;
+	padding: 4em; }
+
+#bio a { text-decoration: none;
+	font-size: 22px;
+	color: #B28827; }
+	
+.getintouch {text-align: center; }
+
+/*end of Bio Page */
+
+/* Css for contact Page*/
+
+#contact {margin: auto;
+	    width: 100%;
+	    background-image: url(images/background/clientpic.jpg);
+	    background-repeat: no-repeat;
+	    background-size: 350px 270px;
+	    background-color: 	#282828;
+  	    background-position: right top; 
+	    height: 280px; }
+
+#contact a { color: #ffe6b3; }
+
+#contact p {font-weight: bold;
+	padding: 2em;
+	padding-left: 5em;
+	color: #FFFFFF;
+	font-family: Noto;
+	font-size: 23px; 
+	font-style: oblique;
+	word-spacing: 0.5em; }
+
+.contactForm { margin-left: 16em;
+		margin-top: 2em;	
+		width: 60%; 
+		border: 3px outset #B28827;}
+
+form { padding: 2em;
+	margin-left: 7em;
+	font-size: 14px;
+	font-weight: bold; }
+
+label {	float: left;
+	margin: 5px 10px 30px 0;
+	font-size: 14px;
+	text-align: right;
+	display: block;
+	font-weight: bold;  }
+
+input, textarea { margin: 6px 10px 30px 0;
+		margin-top: 5px;
+		display: inline-block;
+		padding: 4px;}
+
+.mySubmit { float: right; }
+		
+fieldset {width: 80%; }
+	
+/*end of contact css*/
+
+/*css of Gallery Page*/
+
+.home h5 {text-align: center;
+		float: left;
+		margin: auto;
+		margin-top: 7em;
+		font-size: 20px;
+		font-family: Noto;
+		width: 40%; 
+		padding: 2em;
+		border: 4px outset #B28827; }
+
+.fotorama {height: 100%;
+	margin: auto;
+	display: block;
+	padding: 2em;
+	text-align: center;
+	width: 650px; }
+
+#pictures h1 { text-align: center;
+		font-family: Noto;
+		font-weight: bold;
+		color: #B28827; }
+
+#pictures ul {list-style-type: none;
+		width: auto; 
+		margin: auto;
+		text-align: center;}
+
+#pictures li {display: inline-block;
+     width: 225px;
+     padding-bottom: 10px;
+     margin: 10px; }
+
+#pictures img { width: 225px; height: 200px; }
+
+.galleryPrice {text-align: right; 
+		margin: 0;
+		font-style: italic; }
+
+.galleryPrice a {color: #000000; }
+
+
+/*End of gallery Page*/
+
+/*Css of prices Page */
+
+#prices { width: 90%;
+		text-align: center;
+		margin: auto;
+		margin-bottom: 3em; }
+
+#prices h1 {padding-top: 2em;
+		font-family: Noto;
+		color: #000000;  }
+
+#prices h4 {font-size: 20px;
+		margin: auto;
+		text-align: center;
+		width: 50%;
+		font-family: Noto;
+		padding: 2em;
+		border: 4px outset #B28827; }
+#prices li {list-style-type: none; }
+
+
+
+#prices h3 {margin: 1em;
+		font-size: 24px;
+		font-family: Noto;
+		color: #B28827;  }
+
+
+#prices table {background-color: #B28827;
+		font-family: Noto;
+		color: #FFFFFF;
+		border: outset;
+		margin: auto;
+		width: 40%; }
+
+#prices td, th {padding: 0.4em; }
+
+.altrow {background-color: #FFFFFF;
+		color: #B28827; }
+
+#more { color: #774A16;}
+
+#prices a {text-decoration: none;
+		color: #000000;
+		font-style: italic; }
+
+#details { display: none; }
+
+/* css for media query*/
+
+
+@media only all and (max-width: 768px) {
+	
+	body {width: auto; }
+	#wrapper { width: auto; margin: auto; border: 3px outset #B28827; }
+	.logolink img { width: auto; margin: auto; padding: 0; }
+	header { width: 100%;} 
+	nav {clear: left; width: 70%; margin: auto; text-align: center; letter-spacing: 0em; padding: 0.2em; }
+	nav li {display: block; border: 3px outset #000000; border-width: 1px 20px; }
+	.intro {width: 80%; background-size: 100px 50px; font-size: 17px; padding: 2.5em;  height: auto;  margin: auto;}
+	#homebuttons li { border-width: 1px 20px; margin: 1em; width: auto; display: block; font-size: 19px;}
+	#reviews h1 {font-size: 28px; text-align: center; padding: 3em; background-position: center; }	
+	#reviews li { font-size: 18px; width: 300px; border: none; margin: auto;}
+	.name { text-align: center; color: #B28827; padding: 1em; }
+	#homePics img {width: 100%; height: 300px;}
+	#followme h3 {font-size: 20px; margin-bottom: 0; }
+	#followme p {font-size: 16px; padding: 0.5em; margin-bottom: 1em;}
+	.home h5 {width: 80%; margin: auto; float: none; }
+	.fotorama {width: auto; }
+	#pictures li {width: auto; margin: 0;}
+	#pictures img {width: 150px; height: 150px; }
+	aside figure { padding: 0; }
+	aside img { width: 220px; height: 200px; }
+	aside { padding: 0.3em; text-align: center;}
+	#prices h4 {width: auto; font-size: 17px; }
+	#prices table { width: 80%; }
+	#bio { margin: auto; padding: 1em; width: auto; }
+	#bio img { width: auto ; height: 350px; float: none; margin: 2em; }
+	#bio p {padding: 1em; width: auto;  margin: 2em;}
+	#contact p {text-align: left; padding: 2.5em; font-size: 17px; padding-left: 0.4em; }
+	.contactForm { width: auto; margin: 0.5em; border: none;}
+	form {margin: 1em; padding: 0.2em;}
+	label {margin: 0.5em; }
+	fieldset {width: auto; }
+
+
+}
