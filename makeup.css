@@ -293,8 +293,6 @@ fieldset {width: 80%; }
 .fotorama {height: 100%;
 	margin: auto;
 	display: block;
-	min-width: 1px;
- 	overflow: hidden;
 	padding: 2em;
 	text-align: center;
 	width: 650px; }
